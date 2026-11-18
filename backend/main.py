@@ -1,6 +1,7 @@
 
 from src.vision import detect_objects
-from src.video_detection import detect_video
+from src.video_detection import track_video
+
 
 
 def main():
@@ -22,7 +23,7 @@ def main():
 
         elif choice == "2":
             print("\nStarting video detection...")
-            detect_video()
+            track_video()
 
         elif choice == "0":
             print("\nExiting RoadSight. Goodbye!")
